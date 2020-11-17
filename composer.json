@@ -1,0 +1,24 @@
+{
+    "name": "roy/2do-parcial",
+    "authors": [
+        {
+            "name": "alessandra24x",
+            "email": "alessandra.fernandes@naturalth.it"
+        }
+    ],
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.2",
+        "firebase/php-jwt": "^5.2",
+        "illuminate/database": "^8.14",
+        "illuminate/events": "^8.14",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Config\\": "config",
+            "App\\": "src",
+            "Materia\\": "src"
+        }
+    }
+}
